@@ -19,7 +19,7 @@ router.get("/hello/:name", hello);
 
 app.use(router.routes());
 
-const port = 3000;
+const port = process.env.PORT;
 
 app
   .listen(port)
