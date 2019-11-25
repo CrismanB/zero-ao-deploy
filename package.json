@@ -1,0 +1,25 @@
+{
+  "name": "zero-ao-deploy",
+  "version": "1.0.0",
+  "description": "Repositório do Workshop do 0 ao deploy com Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrismanB/zero-ao-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrismanB/zero-ao-deploy/issues"
+  },
+  "homepage": "https://github.com/CrismanB/zero-ao-deploy#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0"
+  }
+}
